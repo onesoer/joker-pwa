@@ -9,11 +9,11 @@ img {
 }
 
 .konten, .kiri{
-    width : 94%;
+    width : 100%;
     min-height: 20vw;
     float: left;
     padding: 5% 3%;
-	background-color: white;
+    background-color: white;
 }
 
 .kiri {

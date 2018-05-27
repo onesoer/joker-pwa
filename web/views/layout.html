@@ -8,6 +8,25 @@
   {% include 'nav.html' %}
 
   {% block content %}{% endblock %}
-  <script src="serviceWorker.js"> </script>
+  <script>
+    (function() {
+        'use strict';
+
+        if (!('serviceWorker' in navigator)) {
+          console.log('Service worker not supported');
+          return;
+        }
+        navigator.serviceWorker.register('service.js', {
+          scope: 'below/'
+        })
+        .then(function(registration) {
+          console.log('Registered at scope:', registration.scope);
+        })
+        .catch(function(error) {
+          console.log('Registration failed:', error);
+        });
+
+      })();
+  </script>
 </body>
 </html>

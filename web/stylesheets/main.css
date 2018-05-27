@@ -59,10 +59,10 @@ input, select {
 .bawah {
 	background-color:white;
 	padding: 3% 6%; 
-	width: 88%;
+	width: 100%;
 	text-align: center;
 	border-radius: 1em;
-	float: left;
+	position: fixed;
 }
 
 @media (min-width: 600px) {

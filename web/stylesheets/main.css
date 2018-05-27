@@ -62,7 +62,9 @@ input, select {
 	width: 100%;
 	text-align: center;
 	border-radius: 1em;
-	position: fixed-bottom;
+	position: fixed;
+	bottom: 0;
+    	right: 0;
 }
 
 @media (min-width: 600px) {

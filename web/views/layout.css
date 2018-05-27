@@ -1,0 +1,105 @@
+body {
+	font-family: "Lucida Console";
+	font-size: 1.00em;
+	color: black;
+}
+
+img {
+	max-width: 30vw;
+}
+
+.konten, .kiri{
+    width : 94%;
+    min-height: 20vw;
+    float: left;
+    padding: 1% 3%;
+	background-color: white;
+}
+
+.kiri {
+	background-color: #42c8f4;
+	border-radius: 3%;
+}
+
+table {
+	width: 95%;
+}
+
+input, select {
+	width: 100%;
+	padding: 1% 1%;
+	margin: 1%;
+	box-sizing: border-box;
+	border-radius: 3%;
+}
+
+.button {
+	width : 60%;
+	background-color: #42c8f4; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Console";
+    margin: 4px 2px;
+    font-size: 0.8em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}	
+
+.button:hover {
+	background-color: #ffffff;
+	color:black;
+}
+
+.bawah {
+	background-color:white;
+	padding: 3% 6%; 
+	width: 88%;
+	text-align: center;
+	border-radius: 1em;
+	float: left;
+}
+
+@media (min-width: 600px) {
+	  .kiri, .konten {
+			padding: 1% 3%; 
+			width: 44%;
+			border-radius: 0.5em;
+			font-size: 0.80em;
+			float : left;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		.kiri {
+			background-color: #42c8f4;
+			border-radius: 3%;
+		}
+}
+
+@media (min-width: 800px) {
+		.kiri, .konten {
+			background-color:white;
+			padding: 1% 3%; 
+			width: 44%;
+			border-radius: 0.5em;
+			font-size: 0.80em;
+			float : left;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		.kiri {
+			background-color: #42c8f4;
+			border-radius: 3%;
+		}
+}
